@@ -1,0 +1,31 @@
+case,label,n_sick_total,intervention,intervention_key,repair_rate,n_used
+prl318,"Llama-3.1-8B pruned, L20",218,silence MLP,zero_mlp,0.92,150
+prl318,"Llama-3.1-8B pruned, L20",218,silence attention,zero_attn,0.36,150
+prl318,"Llama-3.1-8B pruned, L20",218,silence whole layer,zero_layer,0.9067,150
+prl318,"Llama-3.1-8B pruned, L20",218,remove direction,project_v,0.0733,150
+prl318,"Llama-3.1-8B pruned, L20",218,silence top-32 neurons,top32,0.8067,150
+g431,"gemma-4-31B, L39",144,silence MLP,zero_mlp,0.9,120
+g431,"gemma-4-31B, L39",144,silence attention,zero_attn,0.0,120
+g431,"gemma-4-31B, L39",144,silence whole layer,zero_layer,0.8,120
+g431,"gemma-4-31B, L39",144,remove direction,project_v,0.2333,120
+g431,"gemma-4-31B, L39",144,silence top-32 neurons,top32,0.05,120
+g4qat,"gemma-4-12B QAT, L29",118,silence MLP,zero_mlp,0.8305,118
+g4qat,"gemma-4-12B QAT, L29",118,silence attention,zero_attn,0.0424,118
+g4qat,"gemma-4-12B QAT, L29",118,silence whole layer,zero_layer,0.6695,118
+g4qat,"gemma-4-12B QAT, L29",118,remove direction,project_v,0.0,118
+g4qat,"gemma-4-12B QAT, L29",118,silence top-32 neurons,top32,0.7627,118
+g412,"gemma-4-12B, L29",106,silence MLP,zero_mlp,0.8585,106
+g412,"gemma-4-12B, L29",106,silence attention,zero_attn,0.2358,106
+g412,"gemma-4-12B, L29",106,silence whole layer,zero_layer,0.6226,106
+g412,"gemma-4-12B, L29",106,remove direction,project_v,0.0,106
+g412,"gemma-4-12B, L29",106,silence top-32 neurons,top32,0.8774,106
+q2505,"Qwen2.5-0.5B, L10",103,silence MLP,zero_mlp,0.875,40
+q2505,"Qwen2.5-0.5B, L10",103,silence attention,zero_attn,0.175,40
+q2505,"Qwen2.5-0.5B, L10",103,silence whole layer,zero_layer,0.75,40
+q2505,"Qwen2.5-0.5B, L10",103,remove direction,project_v,0.225,40
+q2505,"Qwen2.5-0.5B, L10",103,silence top-32 neurons,top32,0.3,40
+l3b,"Llama-3.2-3B, L20",145,silence MLP,zero_mlp,0.6759,145
+l3b,"Llama-3.2-3B, L20",145,silence attention,zero_attn,0.3379,145
+l3b,"Llama-3.2-3B, L20",145,silence whole layer,zero_layer,0.7862,145
+l3b,"Llama-3.2-3B, L20",145,remove direction,project_v,0.0414,145
+l3b,"Llama-3.2-3B, L20",145,silence top-32 neurons,top32,0.6483,145

@@ -1,0 +1,15 @@
+# Recorded legacy routing environment (Python 3.11.15).
+# This environment was used for the original routing pipeline.
+torch==2.11.0
+transformers==4.56.1
+datasets==5.0.0
+accelerate==1.14.0
+trl==1.7.0
+bitsandbytes==0.49.2
+wandb==0.28.0
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.0.3
+lm-eval==0.4.12
+tqdm==4.68.3
+tabulate==0.10.0

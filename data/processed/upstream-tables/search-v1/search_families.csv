@@ -1,0 +1,16 @@
+# Source: appendix 01-07 B.1.3 (hillclimb & genetic anti-attack, 12/12 cells @64).
+# Discovery side: oracle ceiling reached by each search family vs random. rand >= ga >= hc everywhere (12/12).
+# orig = deploy baseline. Columns are oracle@64 for each generator.
+model,task,seed,orig,rand_O,hc_O,ga_O
+Llama-3.2-3B,arc,0,66.0,97.7,87.0,94.0
+Llama-3.2-3B,arc,1,65.7,98.0,82.7,95.0
+Llama-3.2-3B,mmlu,0,53.0,95.3,74.3,92.3
+Llama-3.2-3B,mmlu,1,53.0,97.7,77.7,89.7
+Llama-3.2-3B,hella,0,42.7,95.0,67.7,88.7
+Llama-3.2-3B,hella,1,42.7,95.0,67.7,90.3
+Llama-3.2-3B,dart,0,15.0,42.7,23.0,36.3
+Llama-3.2-3B,dart,1,15.0,42.3,21.3,38.7
+Llama-3.1-8B,arc,0,82.0,98.3,91.7,97.3
+Llama-3.1-8B,mmlu,0,70.3,98.0,84.0,93.0
+Llama-3.1-8B,hella,0,63.7,97.3,85.0,94.3
+Llama-3.1-8B,dart,0,18.0,48.3,29.3,42.0

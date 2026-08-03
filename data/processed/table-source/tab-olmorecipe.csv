@@ -1,0 +1,5 @@
+variant,training,n,K,temperature,deployed_pct,majority_pct,oracle_pct,source_file
+base,none,150,64,0.8,12.7,2.7,74.0,reroll_rlvr_olmo3base_dart_t08.json
+RL-zero-math,RLVR,150,64,0.8,25.3,30.0,60.7,reroll_rlvr_olmo3rlzm_dart_t08.json
+thinking-SFT,SFT,150,32,0.8,62.0,65.3,82.0,reroll_rlvr_olmo3tsft_dart_t08.json
+full-instruct,SFT+RLHF,150,64,0.8,67.3,66.7,85.3,reroll_rlvr_olmo3inst_dart_t08.json

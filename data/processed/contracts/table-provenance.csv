@@ -1,0 +1,15 @@
+table_label,source,role
+tab:reroll,data/raw/routing/eval_gen/,learned-router endpoints
+tab:reroll,data/raw/routing/w2_oracle/,MCTS oracle summaries
+tab:reroll,data/raw/routing/w4_null/,random-path oracle and vote endpoints
+tab:sampreroll,data/raw/rlvr/reroll_reroll_*.json,final n=150 ordinary-sampling summaries
+tab:locus,data/raw/mlp/battery_hin_*.json,high-n intervention panels
+tab:locus,data/raw/mlp/battery_q2505.json,Qwen2.5-0.5B intervention panel
+tab:bidir,data/raw/mlp/patch*.json,direction and dose intervention outputs
+tab:fate,data/raw/rlvr/reroll_fateHi_*.json,matched K=200 checkpoint outputs
+tab:fate,data/raw/rlvr/reroll_q3535*.json,full post-training control
+tab:krobust,data/raw/rlvr/reroll_fateHi_*.json,K=200 per-question records
+tab:krobust,data/raw/rlvr/reroll_k400_*.json,K=400 per-question records
+tab:olmorecipe,data/raw/rlvr/reroll_rlvr_olmo3*.json,lineage summary outputs
+tab:promptcontrol,data/raw/rlvr/reroll_rlvr_olmo3*.json,native-format endpoints
+tab:promptcontrol,data/raw/rlvr/reroll_alpharlzm10_*.json,same-weight shared-format records

@@ -1,0 +1,3 @@
+task,eligible_n,native_realized_n,native_pct,shared_realized_n,shared_pct,retained_pct,native_protocol,shared_protocol
+GSM8K,125,58,46.4,24,19.2,41.4,checkpoint-native prompt format,same weights with base-prompt format
+DART,85,24,28.2,12,14.1,50.0,checkpoint-native prompt format,same weights with base-prompt format

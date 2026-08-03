@@ -1,0 +1,7 @@
+case,task,layer,sick_evaluated,healthy_evaluated,rescue_pct,rescue_dose,failure_pct,failure_dose,source_file
+G4-12B,AGIEval-LogiQA,29,40,40,95.0,-4v,97.5,+4v,patch_g412_L29_logiqa.json
+G4-12B-QAT,AGIEval-LogiQA,29,40,40,97.5,-8v,95.0,+4v,patch_patch_g4qat_L29_logiqa.json
+G4-31B,AGIEval-LogiQA,39,40,40,92.5,-4v,27.5,+2v,patch_patch_g431_L39_logiqa.json
+Llama-3.2-3B,ARC-C,20,24,40,91.7,-8v,32.5,+8v,patch_l3b_L20_arc.json
+Qwen2.5-1.5B,PIQA,18,40,40,42.5,-4v,90.0,+8v,patch_patch_q2515_L18_piqa.json
+Qwen2.5-3B,PIQA,28,20,40,70.0,-8v,10.0,+8v,patch_patch_q3b_L28_piqa.json

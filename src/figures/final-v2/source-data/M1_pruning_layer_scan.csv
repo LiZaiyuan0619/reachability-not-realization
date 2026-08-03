@@ -1,0 +1,7 @@
+case,family,pruning_sparsity_percent,task,layer,n_sick_total,n_sick_used,zmlp_repair,zattn_repair,zlayer_repair,mlp_over_attn,locus_label,source_json
+"Llama-3.1-8B, 40% magnitude pruning",Llama,40,piqa,16,29,29,0.2414,0.0345,0.1034,6.997,partial,battery_prl318bs40mL16.json
+"Llama-3.1-8B, 40% magnitude pruning",Llama,40,piqa,20,29,29,0.9655,0.4138,0.931,2.333,partial,battery_prl318bs40mL20.json
+"Llama-3.1-8B, 40% magnitude pruning",Llama,40,piqa,24,29,29,0.0,0.8276,0.0,0.0,muddy,battery_prl318bs40mL24.json
+"Qwen2.5-7B, 50% magnitude pruning",Qwen,50,arc_challenge,12,66,40,0.65,0.45,0.6,1.444,partial,battery_prq257s50mL12.json
+"Qwen2.5-7B, 50% magnitude pruning",Qwen,50,arc_challenge,16,66,40,0.725,0.475,0.5,1.526,partial,battery_prq257s50mL16.json
+"Qwen2.5-7B, 50% magnitude pruning",Qwen,50,arc_challenge,20,66,40,0.225,0.2,0.075,1.125,partial,battery_prq257s50mL20.json

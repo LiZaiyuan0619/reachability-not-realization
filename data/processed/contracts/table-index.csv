@@ -1,0 +1,9 @@
+table_label,filename,rows,description
+tab:reroll,tab-reroll.csv,16,Routing channels and answer-aware selection
+tab:sampreroll,tab-sampreroll.csv,6,Ordinary-sampling selection gap
+tab:locus,tab-locus.csv,6,MLP localization and healthy controls
+tab:bidir,tab-bidir.csv,6,Reciprocal directional interventions
+tab:fate,tab-fate.csv,3,Matched checkpoint fate comparison
+tab:krobust,tab-krobust.csv,4,Sampling-budget control
+tab:olmorecipe,tab-olmorecipe.csv,4,OLMo training-recipe control
+tab:promptcontrol,tab-promptcontrol.csv,2,Prompt-format control

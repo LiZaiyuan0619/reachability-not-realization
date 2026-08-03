@@ -1,0 +1,17 @@
+channel,task,change_pp,budget,selection,verification
+learned router,ARC-C,0.1,single routed pass,answer-blind,recomputed from eval_gen baseline and routed summaries
+learned router,ARC-E,-0.1,single routed pass,answer-blind,recomputed from eval_gen baseline and routed summaries
+learned router,DART,-0.1,single routed pass,answer-blind,recomputed from eval_gen baseline and routed summaries
+learned router,DART-pool,0.5,single routed pass,answer-blind,recomputed from eval_gen baseline and routed summaries
+random vote,ARC-C,-2.0,K=16,answer-blind,final reported values; endpoint outputs included
+random vote,ARC-E,0.0,K=16,answer-blind,final reported values; endpoint outputs included
+random vote,DART,-8.8,K=16,answer-blind,final reported values; endpoint outputs included
+random vote,DART-pool,-10.0,K=16,answer-blind,final reported values; endpoint outputs included
+MCTS oracle,ARC-C,14.3,50 simulations,answer-aware,recomputed from w2_oracle summaries
+MCTS oracle,ARC-E,8.7,50 simulations,answer-aware,recomputed from w2_oracle summaries
+MCTS oracle,DART,6.2,50 simulations,answer-aware,recomputed from w2_oracle summaries
+MCTS oracle,DART-pool,4.0,50 simulations,answer-aware,recomputed from w2_oracle summaries
+random oracle,ARC-C,33.7,200 candidates,answer-aware,recomputed from w4_null/fill summaries
+random oracle,ARC-E,15.3,200 candidates,answer-aware,recomputed from w4_null/fill summaries
+random oracle,DART,38.0,200 candidates,answer-aware,recomputed from w4_null/fill summaries
+random oracle,DART-pool,50.0,200 candidates,answer-aware,recomputed from w4_null/fill summaries

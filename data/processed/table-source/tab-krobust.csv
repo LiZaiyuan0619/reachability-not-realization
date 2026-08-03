@@ -1,0 +1,5 @@
+pair,K,n_matched,base_oracle_pct,trained_oracle_pct,gap_pp,delta_reachable_count,verification
+DAPO,200,150,95.3,85.3,10.0,-15,matched-item regrade from included K=200 and K=400 records
+DAPO,400,150,96.0,85.3,10.7,-16,matched-item regrade from included K=200 and K=400 records
+SimpleRL,200,150,94.0,94.7,-0.7,1,matched-item regrade from included K=200 and K=400 records
+SimpleRL,400,150,94.0,94.7,-0.7,1,matched-item regrade from included K=200 and K=400 records

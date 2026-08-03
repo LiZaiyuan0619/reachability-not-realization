@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.log
+*.out
+.DS_Store
+.idea/
+.vscode/
+
+data/raw/
+data/extended/
+checkpoints/
+outputs/
+wandb/
+
+src/figures/final-v2/*/out/

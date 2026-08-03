@@ -1,0 +1,9 @@
+figure_id,script,output_basename,width_in,height_range_in,source_data,core_conclusion
+R1,routing/make_R1_routing_budget.py,R1_routing_budget,7.0,2.35-2.65,R1_routing_budget.csv,Random-path reachability keeps rising after structured search saturates while the deployable vote remains near baseline.
+R2,routing/make_R2_routing_breadth.py,R2_routing_breadth,7.0,2.25-2.55,R2_routing_cells.csv|R2_action_spaces.csv|R2_search_families.csv,The random-path oracle advantage is positive in every clean audited cell and survives tested search variations.
+R4,routing/make_R4_routing_selection.py,R4_routing_selection,7.0,2.30-2.60,R4_selector_recovery.csv|R4_selector_summary.csv|R4_temperature.csv,Tested answer-blind selectors recover little or none of the oracle-deployment gap.
+M1,mlp/make_M1_mlp_occurrence.py,M1_mlp_occurrence,7.0,2.40-2.75,M1_census.csv|M1_pruning_layer_scan.csv,The recognition-generation failure is bounded in the census and pruning-created cases reproduce MLP-sensitive repair.
+M2,mlp/make_M2_mlp_localization.py,M2_mlp_localization,7.0,2.70-3.05,M2_necessity.csv|M2_selectivity.csv|M2_minimality.csv,One identified MLP block per case is the selective causal locus while within-block effects are not uniformly sparse.
+L1,rlvr/make_L1_rlvr_fate.py,L1_rlvr_fate,7.0,2.35-2.70,L1_fate_flows.csv|L1_fate_summary.csv,Clean matched RLVR gains come from base-reachable questions while the reachable ceiling remains flat or falls.
+L4,rlvr/make_L4_rlvr_propensity.py,L4_rlvr_propensity,3.3125,2.65-3.10,L4_propensity.csv,Training most often realizes base-reachable questions that the base already samples frequently.
+

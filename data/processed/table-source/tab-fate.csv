@@ -1,0 +1,4 @@
+pair,training,n,K,base_deployed_pct,base_oracle_pct,trained_deployed_pct,trained_oracle_pct,delta_reachable_count,source_files
+Qwen2.5-32B to DAPO-32B,from-base RLVR,300,200,55.0,96.0,69.7,82.7,-40,reroll_fateHi_q32base_dart_t08.json|reroll_fateHi_dapo32_dart_t08.json
+Qwen2.5-Math-7B to SimpleRL-Zero,from-base RLVR,300,200,68.3,94.0,80.3,93.3,-2,reroll_fateHi_srbase_dart_t08.json|reroll_fateHi_srzero_dart_t08.json
+Qwen3.5-35B-A3B Base to Instruct,full post-training control,150,64,72.0,83.3,68.7,82.7,-1,reroll_q3535b_dart_t08.json|reroll_q3535i_dart_t08.json

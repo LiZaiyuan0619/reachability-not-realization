@@ -1,0 +1,7 @@
+task,model,n,K,temperature,deployed_pct,vote_at_8_pct,oracle_at_8_pct,gap_pp,source_file
+GSM8K,Llama-3.1-8B,150,8,0.8,13.3,18.7,44.7,26.0,reroll_reroll_l318b_gsm8k.json
+GSM8K,Llama-3.2-3B,150,8,0.8,12.7,15.3,40.0,24.7,reroll_reroll_l3b_gsm8k_t768.json
+GSM8K,Qwen2.5-7B,150,8,0.8,22.7,20.7,32.0,11.3,reroll_reroll_q257_gsm8k.json
+GSM8K,Qwen2.5-14B,150,8,0.8,32.7,32.7,35.3,2.6,reroll_reroll_q2514_gsm8k.json
+ARC-C,Llama-3.1-8B,150,8,0.8,84.0,86.0,92.7,6.7,reroll_reroll_l318b_arc.json
+ARC-C,Qwen2.5-7B,150,8,0.8,90.7,93.3,96.0,2.7,reroll_reroll_q257_arc.json

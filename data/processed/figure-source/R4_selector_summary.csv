@@ -1,0 +1,7 @@
+channel_order,channel,n_total,n_clean,n_flagged,clean_median_recovery_percent
+1,majority vote,14,13,1,-2.22
+2,confidence,14,13,1,-8.89
+3,MCTS vote,14,13,1,-23.33
+4,hill climbing,12,12,0,-23.485
+5,genetic search,12,12,0,-1.855
+6,self-verification,12,12,0,2.2

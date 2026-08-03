@@ -1,0 +1,26 @@
+pair,training_kind,task,n,K,base_state,trained_state,flow_class,count,share,base_deployed,trained_deployed,base_oracle,trained_oracle,delta_reachable
+SimpleRL,"from-base RLVR, mild",dart,300,200,absent,absent,other,15,0.05,0.6833,0.8033,0.94,0.9333,-2
+SimpleRL,"from-base RLVR, mild",dart,300,200,absent,latent,other,3,0.01,0.6833,0.8033,0.94,0.9333,-2
+SimpleRL,"from-base RLVR, mild",dart,300,200,latent,absent,other,5,0.0167,0.6833,0.8033,0.94,0.9333,-2
+SimpleRL,"from-base RLVR, mild",dart,300,200,latent,latent,other,26,0.0867,0.6833,0.8033,0.94,0.9333,-2
+SimpleRL,"from-base RLVR, mild",dart,300,200,latent,solid,gained_from_base_reachable,46,0.1533,0.6833,0.8033,0.94,0.9333,-2
+SimpleRL,"from-base RLVR, mild",dart,300,200,solid,latent,lost_from_deployed,10,0.0333,0.6833,0.8033,0.94,0.9333,-2
+SimpleRL,"from-base RLVR, mild",dart,300,200,solid,solid,other,195,0.65,0.6833,0.8033,0.94,0.9333,-2
+SimpleRL,"from-base RLVR, mild",gsm8k,300,200,absent,absent,other,1,0.0033,0.8167,0.8733,0.9967,0.9967,0
+SimpleRL,"from-base RLVR, mild",gsm8k,300,200,latent,latent,other,18,0.06,0.8167,0.8733,0.9967,0.9967,0
+SimpleRL,"from-base RLVR, mild",gsm8k,300,200,latent,solid,gained_from_base_reachable,36,0.12,0.8167,0.8733,0.9967,0.9967,0
+SimpleRL,"from-base RLVR, mild",gsm8k,300,200,solid,latent,lost_from_deployed,19,0.0633,0.8167,0.8733,0.9967,0.9967,0
+SimpleRL,"from-base RLVR, mild",gsm8k,300,200,solid,solid,other,226,0.7533,0.8167,0.8733,0.9967,0.9967,0
+DAPO,"from-base RLVR, aggressive",dart,300,200,absent,absent,other,12,0.04,0.55,0.6967,0.96,0.8267,-40
+DAPO,"from-base RLVR, aggressive",dart,300,200,latent,absent,other,32,0.1067,0.55,0.6967,0.96,0.8267,-40
+DAPO,"from-base RLVR, aggressive",dart,300,200,latent,latent,other,23,0.0767,0.55,0.6967,0.96,0.8267,-40
+DAPO,"from-base RLVR, aggressive",dart,300,200,latent,solid,gained_from_base_reachable,68,0.2267,0.55,0.6967,0.96,0.8267,-40
+DAPO,"from-base RLVR, aggressive",dart,300,200,solid,absent,lost_from_deployed,8,0.0267,0.55,0.6967,0.96,0.8267,-40
+DAPO,"from-base RLVR, aggressive",dart,300,200,solid,latent,lost_from_deployed,16,0.0533,0.55,0.6967,0.96,0.8267,-40
+DAPO,"from-base RLVR, aggressive",dart,300,200,solid,solid,other,141,0.47,0.55,0.6967,0.96,0.8267,-40
+DAPO,"from-base RLVR, aggressive",gsm8k,300,200,latent,absent,other,1,0.0033,0.9467,0.9633,1.0,0.9933,-2
+DAPO,"from-base RLVR, aggressive",gsm8k,300,200,latent,latent,other,4,0.0133,0.9467,0.9633,1.0,0.9933,-2
+DAPO,"from-base RLVR, aggressive",gsm8k,300,200,latent,solid,gained_from_base_reachable,11,0.0367,0.9467,0.9633,1.0,0.9933,-2
+DAPO,"from-base RLVR, aggressive",gsm8k,300,200,solid,absent,lost_from_deployed,1,0.0033,0.9467,0.9633,1.0,0.9933,-2
+DAPO,"from-base RLVR, aggressive",gsm8k,300,200,solid,latent,lost_from_deployed,5,0.0167,0.9467,0.9633,1.0,0.9933,-2
+DAPO,"from-base RLVR, aggressive",gsm8k,300,200,solid,solid,other,278,0.9267,0.9467,0.9633,1.0,0.9933,-2

@@ -1,0 +1,7 @@
+# Source: appendix 01-07 B.1.2 (POLAR & SKIPONLY anti-attack action spaces) + B.0 coverage table.
+# Each row: one action space, count of cells where random >= MCTS ceiling (all pass). gap range = rand oracle-minus-mcts spread.
+# drllm count from B.0 (46/46); POLAR 23/23; SKIPONLY 10/10. Representative gap midpoints for bar height (mean rand_minus_mcts).
+action_space,cells_total,cells_random_wins,mean_gap,gap_lo,gap_hi,note
+drllm,46,46,20.5,3.2,50.0,unconstrained routing
+POLAR,23,23,30.0,7.0,50.7,segment-length constrained (anti-attack)
+SKIPONLY,10,10,35.0,17.5,56.0,pure layer-skip remove-repeat (compute-increasing only)

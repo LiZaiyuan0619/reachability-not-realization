@@ -1,0 +1,5 @@
+pair,task,n,K,gained_from_base_reachable,gained_from_base_unreachable,lost_from_deployed,net_deployed_count,base_deployed,trained_deployed,delta_deployed_pp,base_oracle,trained_oracle,delta_oracle_pp,delta_reachable
+SimpleRL,gsm8k,300,200,36,0,19,17,0.8167,0.8733,5.659999999999998,0.9967,0.9967,0.0,0
+SimpleRL,dart,300,200,46,0,10,36,0.6833,0.8033,12.0,0.94,0.9333,-0.6699999999999928,-2
+DAPO,gsm8k,300,200,11,0,6,5,0.9467,0.9633,1.660000000000006,1.0,0.9933,-0.6700000000000039,-2
+DAPO,dart,300,200,68,0,24,44,0.55,0.6967,14.669999999999995,0.96,0.8267,-13.329999999999998,-40

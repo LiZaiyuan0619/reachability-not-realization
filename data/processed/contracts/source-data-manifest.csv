@@ -1,0 +1,16 @@
+figure_id,filename,purpose,rows,columns,sha256
+L1,L1_fate_flows.csv,clean K=200 per-question state flows,25,15,48d9096d9424f95d2bea9392ae6352ae12f125810665c72efc64410e86d37a3d
+L1,L1_fate_summary.csv,four clean pair-task summaries,4,15,e2ad57f5ba76b3468faccbdc5553496034bf3e2c672775d4896fd11957d08090
+L4,L4_propensity.csv,three retained propensity series with thin-bin flag,14,12,71763e235657e241422ffee1b00e20a61a7da2266105bec50c46f58cb2d3e342
+M1,M1_census.csv,census records with duplicate and genuine flags,303,16,b9aad1e0ed933ac8c2e734e42d6182bb0efbbf2b3b2f51f81d07e6f058b3ae45
+M1,M1_pruning_layer_scan.csv,two pruning-created layer scans,6,13,17bb394dcbf465d1c110bcedb9da22222b1d1b877c44676ce188c72bc986852c
+M2,M2_minimality.csv,directional top-k and random-k curves,48,9,a5eff9b9e761cce60cb6e1660b005124808e786c2951d4518f6251557be1605d
+M2,M2_necessity.csv,component intervention repair rates,30,7,ae9dbf93a6f976907d151121809a8077c3d9264f20699986be534b6438711bd1
+M2,M2_selectivity.csv,sick repair and healthy-panel break rates,6,8,3d73fec9f5e93d941e36e76f084e9bfb9d0db8229585106398004d1f02f0dec6
+R1,R1_routing_budget.csv,measured matched-budget trajectories,32,10,fcb36f38fc2adf9d4105315284ecbd63ee7e9de8026a5c3313dc066969a14082
+R2,R2_action_spaces.csv,action-space robustness counts,3,5,99f41f7694b0cba295bd06cb9ea01b7dfba8821e15e5fb8b7e3f24a94d8c8b8c
+R2,R2_routing_cells.csv,46 evaluated cells with 43-cell clean-headline flag,46,12,e75bc3b38704d34282ce29bda98c173ac92212de4dd77c4ae0721d1d9c55650b
+R2,R2_search_families.csv,raw search-family oracle values,36,7,514ad486d61a080fbc3c9085c71dfb9bb1dcae3595b3eb8aca232c2ec8dcfaeb
+R4,R4_selector_recovery.csv,cell-level answer-blind recovery,78,8,19c45e0706b52ff3313b7bb61f5adf621eeef812b7f1a91ac1782a430319d557
+R4,R4_selector_summary.csv,clean channel medians and denominators,6,6,c278d83e79ec9f16b6cb09292cd1ec5169062c821a0ce2c89b7cf71022b179ec
+R4,R4_temperature.csv,measured temperature selection gaps,11,5,463af080e2b289cac20409329c35231ae1c7b1f57af23350a78fdfda0fb77785

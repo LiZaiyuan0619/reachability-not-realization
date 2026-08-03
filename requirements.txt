@@ -1,0 +1,20 @@
+# Recorded later experiment environment (Python 3.11.15).
+# Quantized and newer model families may require only a subset of the optional
+# packages below, depending on the model being audited.
+torch==2.11.0
+transformers==5.13.0
+datasets==5.0.0
+accelerate==1.14.0
+trl==1.7.0
+bitsandbytes==0.49.2
+wandb==0.28.0
+numpy==2.2.6
+scipy==1.17.1
+pandas==3.0.3
+lm-eval==0.4.12
+tqdm==4.68.3
+tabulate==0.10.0
+kernels==0.15.2
+gptqmodel==7.1.0
+autoawq==0.2.9
+torchvision==0.26.0

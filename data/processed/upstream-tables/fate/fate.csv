@@ -1,0 +1,40 @@
+pair,kind,task,n,K_base,K_trained,base_state,trained_state,count,share,base_deployed,trained_deployed,base_oracle,trained_oracle,delta_reachable
+SimpleRL,"from-base RLVR, mild",dart,300,200,200,absent,absent,15,0.05,0.6833,0.8033,0.94,0.9333,-2
+SimpleRL,"from-base RLVR, mild",dart,300,200,200,absent,latent,3,0.01,0.6833,0.8033,0.94,0.9333,-2
+SimpleRL,"from-base RLVR, mild",dart,300,200,200,latent,absent,5,0.0167,0.6833,0.8033,0.94,0.9333,-2
+SimpleRL,"from-base RLVR, mild",dart,300,200,200,latent,latent,26,0.0867,0.6833,0.8033,0.94,0.9333,-2
+SimpleRL,"from-base RLVR, mild",dart,300,200,200,latent,solid,46,0.1533,0.6833,0.8033,0.94,0.9333,-2
+SimpleRL,"from-base RLVR, mild",dart,300,200,200,solid,latent,10,0.0333,0.6833,0.8033,0.94,0.9333,-2
+SimpleRL,"from-base RLVR, mild",dart,300,200,200,solid,solid,195,0.65,0.6833,0.8033,0.94,0.9333,-2
+SimpleRL,"from-base RLVR, mild",gsm8k,300,200,200,absent,absent,1,0.0033,0.8167,0.8733,0.9967,0.9967,0
+SimpleRL,"from-base RLVR, mild",gsm8k,300,200,200,latent,latent,18,0.06,0.8167,0.8733,0.9967,0.9967,0
+SimpleRL,"from-base RLVR, mild",gsm8k,300,200,200,latent,solid,36,0.12,0.8167,0.8733,0.9967,0.9967,0
+SimpleRL,"from-base RLVR, mild",gsm8k,300,200,200,solid,latent,19,0.0633,0.8167,0.8733,0.9967,0.9967,0
+SimpleRL,"from-base RLVR, mild",gsm8k,300,200,200,solid,solid,226,0.7533,0.8167,0.8733,0.9967,0.9967,0
+DAPO,"from-base RLVR, aggressive",dart,300,200,200,absent,absent,12,0.04,0.55,0.6967,0.96,0.8267,-40
+DAPO,"from-base RLVR, aggressive",dart,300,200,200,latent,absent,32,0.1067,0.55,0.6967,0.96,0.8267,-40
+DAPO,"from-base RLVR, aggressive",dart,300,200,200,latent,latent,23,0.0767,0.55,0.6967,0.96,0.8267,-40
+DAPO,"from-base RLVR, aggressive",dart,300,200,200,latent,solid,68,0.2267,0.55,0.6967,0.96,0.8267,-40
+DAPO,"from-base RLVR, aggressive",dart,300,200,200,solid,absent,8,0.0267,0.55,0.6967,0.96,0.8267,-40
+DAPO,"from-base RLVR, aggressive",dart,300,200,200,solid,latent,16,0.0533,0.55,0.6967,0.96,0.8267,-40
+DAPO,"from-base RLVR, aggressive",dart,300,200,200,solid,solid,141,0.47,0.55,0.6967,0.96,0.8267,-40
+DAPO,"from-base RLVR, aggressive",gsm8k,300,200,200,latent,absent,1,0.0033,0.9467,0.9633,1.0,0.9933,-2
+DAPO,"from-base RLVR, aggressive",gsm8k,300,200,200,latent,latent,4,0.0133,0.9467,0.9633,1.0,0.9933,-2
+DAPO,"from-base RLVR, aggressive",gsm8k,300,200,200,latent,solid,11,0.0367,0.9467,0.9633,1.0,0.9933,-2
+DAPO,"from-base RLVR, aggressive",gsm8k,300,200,200,solid,absent,1,0.0033,0.9467,0.9633,1.0,0.9933,-2
+DAPO,"from-base RLVR, aggressive",gsm8k,300,200,200,solid,latent,5,0.0167,0.9467,0.9633,1.0,0.9933,-2
+DAPO,"from-base RLVR, aggressive",gsm8k,300,200,200,solid,solid,278,0.9267,0.9467,0.9633,1.0,0.9933,-2
+OR1,RLVR on a distilled model,dart,300,200,64,absent,absent,16,0.0533,0.6833,0.5133,0.94,0.79,-45
+OR1,RLVR on a distilled model,dart,300,200,64,absent,latent,2,0.0067,0.6833,0.5133,0.94,0.79,-45
+OR1,RLVR on a distilled model,dart,300,200,64,latent,absent,24,0.08,0.6833,0.5133,0.94,0.79,-45
+OR1,RLVR on a distilled model,dart,300,200,64,latent,latent,30,0.1,0.6833,0.5133,0.94,0.79,-45
+OR1,RLVR on a distilled model,dart,300,200,64,latent,solid,23,0.0767,0.6833,0.5133,0.94,0.79,-45
+OR1,RLVR on a distilled model,dart,300,200,64,solid,absent,23,0.0767,0.6833,0.5133,0.94,0.79,-45
+OR1,RLVR on a distilled model,dart,300,200,64,solid,latent,51,0.17,0.6833,0.5133,0.94,0.79,-45
+OR1,RLVR on a distilled model,dart,300,200,64,solid,solid,131,0.4367,0.6833,0.5133,0.94,0.79,-45
+OR1,RLVR on a distilled model,gsm8k,300,200,64,absent,absent,1,0.0033,0.8167,0.87,0.9967,0.9933,-1
+OR1,RLVR on a distilled model,gsm8k,300,200,64,latent,absent,1,0.0033,0.8167,0.87,0.9967,0.9933,-1
+OR1,RLVR on a distilled model,gsm8k,300,200,64,latent,latent,13,0.0433,0.8167,0.87,0.9967,0.9933,-1
+OR1,RLVR on a distilled model,gsm8k,300,200,64,latent,solid,40,0.1333,0.8167,0.87,0.9967,0.9933,-1
+OR1,RLVR on a distilled model,gsm8k,300,200,64,solid,latent,24,0.08,0.8167,0.87,0.9967,0.9933,-1
+OR1,RLVR on a distilled model,gsm8k,300,200,64,solid,solid,221,0.7367,0.8167,0.87,0.9967,0.9933,-1
