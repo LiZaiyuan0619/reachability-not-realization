@@ -1,7 +1,7 @@
 # Reachability Is Not Realization
 
 Code for **Reachability Is Not Realization: Tracing the Sources of LLM
-Benchmark Gains**.
+Benchmark Gains**(https://arxiv.org/pdf/2608.03219).
 
 This repository contains the routing, MLP intervention, RLVR, training,
 analysis, and figure-generation code used in the paper. It also includes the
